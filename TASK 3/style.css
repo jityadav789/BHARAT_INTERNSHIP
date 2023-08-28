@@ -1,0 +1,77 @@
+@font-face {
+    font-family: netflix-sans-regular;
+    src: url("../fonts/NetflixSans_W_Rg.woff2");
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-y: hidden;
+}
+
+.root{
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.img-logo{
+  width: 14%;
+  padding: 4px 120px;
+}
+.btn-sign{
+    background-color: #e50914;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+}
+.main-container{
+width: 100%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main-title-container{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.main-title{
+    font-size: 3.3rem;
+    margin-bottom: 14px;
+    font-family: netflix-sans-regular;
+    line-height: 1.1;
+}
+
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.main-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+
+}
+/* .email{
+    width: 55%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
